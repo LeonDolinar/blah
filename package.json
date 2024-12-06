@@ -6,5 +6,8 @@
   "repository": "git@github.com:LeonDolinar/blah.git",
   "author": "Leon Dolinar <leon.dolinar@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "blah": "nodejs index.js"
+  }
 }

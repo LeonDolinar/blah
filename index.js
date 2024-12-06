@@ -25,9 +25,9 @@ const makeDailyCommit = async () => {
     const formattedDate = formatDateTime(date);
     fs.writeFileSync(filePath, `Last update: ${formattedDate}\n`);
 
-    //await executeCommand('git add update.txt');
-    //await executeCommand(`git commit -m "Daily update - ${formattedDate}"`);
-    //await executeCommand('git push origin main'); // Replace 'main' with your branch name
+    await executeCommand('git add update.txt');
+    await executeCommand(`git commit -m "Daily update - ${formattedDate}"`);
+    await executeCommand('git push origin main');
 
     console.log('[INFO] Commit made and changes pushed successfully.');
   } catch (error) {
