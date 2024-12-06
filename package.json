@@ -1,0 +1,10 @@
+{
+  "name": "blah",
+  "version": "1.0.0",
+  "description": "Blah blah blah",
+  "main": "index.js",
+  "repository": "git@github.com:LeonDolinar/blah.git",
+  "author": "Leon Dolinar <leon.dolinar@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
